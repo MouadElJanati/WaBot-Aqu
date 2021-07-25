@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
 
     m.reply('+50000000 XP Owner~Sama')
 
-    global.DATABASE._data.users[m.sender].lastclaim = new Date * 1
+    global.DATABASE._data.users[m.sender].lastclaim = new Date * 10
 
   } else m.reply('You have claimed daily claims today, Owner~Sama')
 
